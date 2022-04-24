@@ -1,0 +1,89 @@
+.header{
+}
+.header_inner{
+  background-color: #0A0043;
+}
+
+.image{
+  background: url("../../../public/header-bg.png") no-repeat left 25% center;
+  background-size: cover;
+  height: 473px;
+}
+
+.contact_info{
+  display: flex;
+  height: 34px;
+}
+
+.whatsapp_logo{
+  width: 17px;
+  margin-right: 12px;
+}
+
+.contact_wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heartLogo{
+  width: 33px;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.langLogo{
+  @extend .heartLogo;
+  width: 25px;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 70%;
+  height: 60px;
+  margin: 0 auto;
+
+  &_wrapper{
+    box-shadow: 0 4px 18px #8A8A8A19;
+  }
+}
+
+.primary_logo{
+  width: 70px;
+  margin-right: 20px;
+}
+
+.menu{
+
+  &_list{
+    display: flex;
+    list-style-type: none;
+  }
+  &_item{
+
+  }
+  &_link{
+    display: block;
+    padding: 10px 12px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  &_wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 620px;
+  }
+}

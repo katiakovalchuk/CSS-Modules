@@ -1,0 +1,23 @@
+
+.contact{
+
+  &_heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+  }
+  &_wrapper{
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+
+.form{
+  width: 40%;
+
+  &_wrapper{
+    display: flex;
+  }
+  &_map{
+    width: 60%;
+  }
+}
