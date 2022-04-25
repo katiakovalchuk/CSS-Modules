@@ -1,5 +1,4 @@
-.header{
-}
+
 .header_inner{
   background-color: #0A0043;
 }
@@ -80,6 +79,10 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     line-height: 20px;
+  }
+  &_link:hover{
+    background-color: #B4B7BE3F;
+    border-radius: 10px;
   }
   &_wrapper{
     display: flex;
