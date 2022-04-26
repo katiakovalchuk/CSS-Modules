@@ -10,8 +10,8 @@ const ContactButton = ({location, contactItem, src, fontColor, logoBiggerSize}) 
             className={styles.contact_link}
             to='#'
             onClick={e => {
-                window.open(location, '_blank');
                 e.preventDefault();
+                window.open(location, '_blank');
             }}
         >
             <img className={logoStyle} src={src} alt='logo'/>

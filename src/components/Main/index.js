@@ -6,7 +6,7 @@ import {
     map,
     marker,
     messageLogoStyled,
-    messangerLogo,
+    messengerLogo,
     phoneLogoStyled,
     telegramLogo,
     viberLogo,
@@ -98,7 +98,7 @@ const Main = () => {
                             <ContactButton
                                 location='https://www.messenger.com/'
                                 contactItem='Messenger'
-                                src={messangerLogo}
+                                src={messengerLogo}
                                 fontColor='grey'
                                 logoBiggerSize={true}
                             />

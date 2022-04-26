@@ -10,14 +10,24 @@ import langLogo from '../assets/lang-logo.png';
 import primaryLogo from '../assets/primary-logo.png';
 import marker from '../assets/marker.png';
 import line from '../assets/line.png';
+import star from '../assets/star.png';
 import viberLogo from '../assets/viber-logo.png';
-import messangerLogo from '../assets/messanger-logo.png';
+import messengerLogo from '../assets/messanger-logo.png';
 import telegramLogo from '../assets/telegam-logo.png';
+import footerLogo from '../assets/footer-logo.png';
+import footerPhoneLogo from '../assets/footer-phone-logo.png';
+import footerMarker from '../assets/footer-marker.png';
+import facebookLogo from '../assets/facebook-logo.png';
+import youtubeLogo from '../assets/youtube-logo.png';
+import linkedinLogo from '../assets/linkedin-logo.png';
+import instagramLogo from '../assets/instagram-logo.png';
+import questionLogo from '../assets/question-logo.png';
 
 export {
     map,
     marker,
     line,
+    star,
     messageLogo,
     messageLogoStyled,
     phoneLogo,
@@ -28,6 +38,14 @@ export {
     langLogo,
     primaryLogo,
     viberLogo,
-    messangerLogo,
-    telegramLogo
+    messengerLogo,
+    telegramLogo,
+    footerLogo,
+    footerPhoneLogo,
+    footerMarker,
+    facebookLogo,
+    youtubeLogo,
+    linkedinLogo,
+    instagramLogo,
+    questionLogo
 };

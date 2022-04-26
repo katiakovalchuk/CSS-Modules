@@ -7,7 +7,7 @@ import styles from './style.module.scss';
 
 const Header = () => {
     return (
-        <header className={styles.header}>
+        <header>
             <div className={styles.header_inner}>
                 <div className={styles.contact_wrapper}>
                     <div className={styles.contact_info}>
